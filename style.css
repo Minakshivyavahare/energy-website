@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    
 }
 .navbar1{
     width: 100%;
@@ -545,6 +546,7 @@
         height: auto;
         background-color: white;
     }
+    
     .card-section{
         width: 100%;
         height: auto;
@@ -642,6 +644,7 @@
     .blog-heading{
         width: 100%;
         height: auto;
+        padding-inline: 60px;
         background-color: white;
     }
     .card-section{
@@ -685,9 +688,11 @@
     }
     .news-left{
         width: 95%;
+        padding-inline: 40px;
     }
     .news-right{
         width: 95%;
+        padding-inline: 40px;
     }
     .footer1{
         width: 100%;
@@ -700,6 +705,16 @@
     .footer22{
         width: 100%;
     }
+    .footer2{
+        width: 100%;
     
+    }
+    .footer2 h5{
+        padding-inline: 35px;
+    }
+    .footer2 ul{
+        padding-inline: 30px;
+        flex-wrap: wrap;
+    }
     
 }
